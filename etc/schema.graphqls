@@ -1,0 +1,3 @@
+interface ProductInterface {
+    custom_type: String @doc(description: "Custom Type value") @resolver(class: "Mati\\CustomType\\Model\\Resolver\\Product\\CustomType")
+}
